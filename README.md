@@ -17,3 +17,9 @@ jar tvf lib/org.tweetsum.jar
 ```console
 java -classpath lib/jackson-core-2.9.5.jar:lib/jackson-databind-2.9.5.jar:lib/jackson-annotations-2.9.0.jar:lib/org.tweetsum.jar org.tweetsum.Main < tweets.json
 ```
+```console
+jdeps --jdk-internals lib/tweetsum.jar
+```
+```console
+jdeps -s -classpath lib/jackson-core-2.9.5.jar:lib/jackson-databind-2.9.5.jar:lib/jackson-annotations-2.9.0.jar lib/org.tweetsum.jar
+```
