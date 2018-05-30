@@ -14,7 +14,7 @@ Created by https://www.gitignore.io/api/java
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 *.zip
